@@ -11,6 +11,8 @@
 		5EE1AC632A7B9D8600C60397 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1AC622A7B9D8600C60397 /* ContentView.swift */; };
 		5EE1AC652A7B9D8800C60397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE1AC642A7B9D8800C60397 /* Assets.xcassets */; };
 		5EE1AC682A7B9D8800C60397 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE1AC672A7B9D8800C60397 /* Preview Assets.xcassets */; };
+		5EE1AC6F2A7BA8FD00C60397 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1AC6E2A7BA8FD00C60397 /* First.swift */; };
+		5EE1AC712A7BAA6B00C60397 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1AC702A7BAA6B00C60397 /* Second.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5EE1AC622A7B9D8600C60397 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5EE1AC642A7B9D8800C60397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EE1AC672A7B9D8800C60397 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EE1AC6E2A7BA8FD00C60397 /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		5EE1AC702A7BAA6B00C60397 /* Second.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				5EE1AC622A7B9D8600C60397 /* ContentView.swift */,
 				5EE1AC642A7B9D8800C60397 /* Assets.xcassets */,
 				5EE1AC662A7B9D8800C60397 /* Preview Content */,
+				5EE1AC6E2A7BA8FD00C60397 /* First.swift */,
+				5EE1AC702A7BAA6B00C60397 /* Second.swift */,
 			);
 			path = PhaseAnimations;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				5EE1AC632A7B9D8600C60397 /* ContentView.swift in Sources */,
 				5EE1AC612A7B9D8600C60397 /* PhaseAnimationsApp.swift in Sources */,
+				5EE1AC6F2A7BA8FD00C60397 /* First.swift in Sources */,
+				5EE1AC712A7BAA6B00C60397 /* Second.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

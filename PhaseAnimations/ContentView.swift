@@ -8,28 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var animate = false
-    
     var body: some View {
         NavigationStack {
-            VStack {
-                Circle()
-                    .fill(.red.gradient)
-                Circle()
-                    .fill(.yellow.gradient)
-                Circle()
-                    .fill(.green.gradient)
+            NavigationLink("First") {
+                First()
             }
-            .scaleEffect(animate ? 1.0 : 0.5) // inside phaseAnimator
-            .navigationTitle("PhaseAnimation")
-            .onTapGesture {
-                withAnimation {
-                    animate.toggle()
-                }
+            NavigationLink("Second") {
+                Second()
             }
-            //.phaseAnimator([1.0, 0.5], trigger: animate) { view, phase in
-            //  view.scaleEffect(phase)
-            //}
         }
     }
 }
